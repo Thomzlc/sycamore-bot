@@ -100,7 +100,8 @@ export const instructions = ({ reply }: ContextMessageUpdate) => {
     help: '',
     clear: 'delete all messages',
     shouldi: 'decide between multiple choices',
-  }
+    goodbot: 'Whose a good bot? You're a good boy!', 
+ }
 
   const commandsMarkdown = Object.entries(commands)
     .map(([key, value]) => ` • <code>${key}</code> ${value}`)
